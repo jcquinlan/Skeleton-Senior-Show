@@ -49,6 +49,10 @@
 }
 
 .mission {
-     background-color: #ffc645;
+    background-color: #ffc645;
     background-position: bottom;
+}
+
+.slice {
+     background-color: #ffc645;    
 }
