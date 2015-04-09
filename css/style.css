@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+
+.section {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 150%
+}
+
+.splash {
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    font-size: 6em;
+    height: 100vh;
+    text-align: center;  
+    background-image: url(../imgs/Untitled-1.gif);
+    background-size: cover;
+}
+
+.splash h1 {
+     font-size: 2em;
+    color: black;
+    line-height: 140px;
+    padding-top: 20vh;
+    transform: rotate(-7deg);
+}
+
+.about {
+    background-color: #399372;
+ 
+}
+
+.sectionHeader {
+     padding-top: 100px;   
+}
+
+.sectionText {
+     padding-bottom: 100px;   
+}
+
+.artists{
+    background-color: #ffc645;
+    
+}
+
+.artists img {
+     width: 100%;
+    padding-bottom: 70px;
+}
+
+.mission {
+     background-color: #ffc645;
+    background-position: bottom;
+}
