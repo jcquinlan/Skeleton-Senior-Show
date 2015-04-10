@@ -1,12 +1,35 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
 
+/* MODULES */
+/***********/
 .section {
     font-family: "Roboto";
     font-weight: 300;
     font-size: 150%
 }
 
+.sectionHeader {
+     padding-top: 70px;
+    font-size: 2.5em;
+}
+
+.sectionText {
+     padding-bottom: 100px;   
+}
+
+.slice {
+     background-color: #ffc645; 
+    vertical-align: bottom;
+   line-height: 0px;
+}
+
+.text-right {
+     text-align: right;   
+}
+
+/* SPLASH SECTION */
+/******************/
 .splash {
     font-family: "Source Sans Pro";
     font-weight: 700;
@@ -25,25 +48,9 @@
     transform: rotate(-7deg);
 }
 
-.about {
-    background-color: #399372;
- 
-}
-
-.sectionHeader {
-     padding-top: 70px;
-    font-size: 2.5em;
-}
-
-.about .sectionHeader {
-     text-align: right;   
-}
-
-.sectionText {
-     padding-bottom: 100px;   
-}
-
-.artists{
+/* ARTIST SECTION */
+/******************/
+.artists {
     background-color: #ffc645;
     
 }
@@ -53,14 +60,19 @@
     padding-bottom: 70px;
 }
 
+/* ABOUT SECTION */
+/*****************/
+.about {
+    background-color: #399372;
+ 
+}
+
+/* MISSION SECTION */
+/*******************/
 .mission {
     background-color: #ffc645;
     background-position: bottom;
 }
 
-.slice {
-     background-color: #ffc645; 
-    vertical-align: bottom;
-   line-height: 0px;
-}
+
 
