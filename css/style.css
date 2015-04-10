@@ -54,5 +54,8 @@
 }
 
 .slice {
-     background-color: #ffc645;    
+     background-color: #ffc645; 
+    vertical-align: bottom;
+   line-height: 0px;
 }
+
