@@ -31,7 +31,12 @@
 }
 
 .sectionHeader {
-     padding-top: 100px;   
+     padding-top: 70px;
+    font-size: 2.5em;
+}
+
+.about .sectionHeader {
+     text-align: right;   
 }
 
 .sectionText {
