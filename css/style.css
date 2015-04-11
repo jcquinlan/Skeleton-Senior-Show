@@ -27,6 +27,7 @@
     margin:0; padding:0;
     list-style:none;
     text-align: center;
+    padding-top: 70px;
 }
 
 .soc li {
@@ -63,10 +64,10 @@
     display:block;
     position: relative;
     z-index: 1;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    font-size: 44px;
+    width: 160px;
+    height: 160px;
+    line-height: 160px;
+    font-size: 80px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
