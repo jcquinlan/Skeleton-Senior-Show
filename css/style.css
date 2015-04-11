@@ -78,8 +78,8 @@
 
 .soc a:hover {
     z-index: 2;
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
 }
 
 .soc-icon-last{
@@ -157,7 +157,7 @@
 }
 
 .slice {
-     background-color: #ffc645; 
+     background-color: darkorange; 
     vertical-align: bottom;
    line-height: 0px;
 }
@@ -189,7 +189,7 @@
 /* ARTIST SECTION */
 /******************/
 .artists {
-    background-color: #ffc645;
+    background-color: darkorange;
     
 }
 
