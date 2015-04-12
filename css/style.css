@@ -1,6 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
 
+html, body {
+     font-size: 18px;   
+}
+
 /* SOCICON */
 /***********/
 @font-face {
@@ -214,6 +218,12 @@
 .mission {
     background-color: #ffc645;
     background-position: bottom;
+}
+
+/* ARTIST SECTION */
+/******************/
+li {
+     line-height: 17px;   
 }
 
 
