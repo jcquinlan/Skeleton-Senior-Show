@@ -165,9 +165,15 @@ html, body {
 }
 
 .slice {
+    width: 100%;
      background-color: darkorange; 
     vertical-align: bottom;
    line-height: 0px;
+}
+
+.icon {
+     width: 60px;
+    padding-right: 40px;
 }
 
 .text-right {
