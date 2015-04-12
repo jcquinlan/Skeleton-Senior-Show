@@ -180,6 +180,10 @@ html, body {
      text-align: right;   
 }
 
+.text-center {
+     text-align:center;   
+}
+
 /* SPLASH SECTION */
 /******************/
 .splash {
@@ -228,8 +232,9 @@ html, body {
 
 /* ARTIST SECTION */
 /******************/
-li {
-     line-height: 17px;   
+.artists li {
+     list-style: none;
+    line-height: 17px;
 }
 
 
