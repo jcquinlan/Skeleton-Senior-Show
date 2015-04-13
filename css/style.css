@@ -144,7 +144,8 @@ html, body {
 }
 
 .social {
-     background-color: darkorange;
+    background-image: url(../imgs/girl.gif);
+    background-size: cover;
 }
 
 /* MODULES */
@@ -165,8 +166,7 @@ html, body {
 }
 
 .slice {
-    width: 100%;
-     background-color: darkorange; 
+    width: 100%; 
     vertical-align: bottom;
    line-height: 0px;
 }
@@ -207,14 +207,9 @@ html, body {
 /* ARTIST SECTION */
 /******************/
 .artists {
-    background-color: darkorange;
-    
+    background-color: aquamarine;
 }
 
-.artists img {
-     width: 100%;
-    padding-bottom: 70px;
-}
 
 /* ABOUT SECTION */
 /*****************/
