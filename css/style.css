@@ -31,7 +31,8 @@ html, body {
     margin:0; padding:0;
     list-style:none;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 200px;
+    
 }
 
 .soc li {
@@ -148,6 +149,10 @@ html, body {
     background-size: cover;
 }
 
+.social .slice {
+     padding-top: 100px;    
+}
+
 /* MODULES */
 /***********/
 .section {
@@ -157,12 +162,15 @@ html, body {
 }
 
 .sectionHeader {
-    padding-top: 30px;
     font-size: 3.5em;
 }
 
 .sectionText {
-     padding-bottom: 100px;   
+     padding-bottom: 0px;   
+}
+
+.section .container {
+     padding: 100px 0px;   
 }
 
 .slice {
