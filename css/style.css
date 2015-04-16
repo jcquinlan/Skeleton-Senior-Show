@@ -264,6 +264,43 @@ html, body {
     line-height: 17px;
 }
 
+/* MEDIA QUERIES */
+/*****************/
+@media (max-width: 400px){
+    
+}
 
+@media (min-width: 400px){
+    
+}
+
+@media (min-width: 550px){
+    
+}
+
+@media (min-width: 750px){
+    
+}
+
+@media (min-width: 1000px){
+    .splash h1 {
+        font-size: 1em;
+        line-height: 100px;
+        letter-spacing: 1px;
+        padding-top: 15vh;
+        padding-bottom: 30px;
+        transform: rotate(-7deg);
+        border: 15px solid #FF522A;   
+    }
+    
+    .splash .container {
+         width: 700px;   
+    }
+    
+}
+
+@media (min-width: 1200px){
+    
+}
 
 
