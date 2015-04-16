@@ -78,7 +78,7 @@ html, body {
     -moz-border-radius: 0px;
     border-radius: 0px;
     margin-right: 18px;
-    color: #ffffff;
+    color: white;
     background-color: none;
 }
 
@@ -86,7 +86,7 @@ html, body {
     z-index: 2;
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
-    border-bottom: 5px solid white;
+    border-bottom: 5px solid #FF522A;
 }
 
 .soc-icon-last{
@@ -193,7 +193,8 @@ html, body {
 }
 
 .sideText {
-    position: fixed;  
+    position: fixed;
+    color: #2e403b;
     top: 90vh;
     font-size: 18px;
     transform: rotate(90deg);
@@ -215,11 +216,16 @@ html, body {
 
 .splash h1 {
     font-size: 2em;
-    color: #D4A16E;
+    color: white;
     line-height: 160px;
     letter-spacing: 1px;
     padding-top: 20vh;
     transform: rotate(-7deg);
+    border: 15px solid #FF522A;
+}
+
+.orange {
+     color: #FF522A;   
 }
 
 
