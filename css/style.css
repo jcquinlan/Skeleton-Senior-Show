@@ -200,6 +200,10 @@ html, body {
     transform: rotate(90deg);
 }
 
+.orange {
+     color: #FF522A;
+}
+
 
 
 /* SPLASH SECTION */
@@ -215,18 +219,8 @@ html, body {
     background-size: cover;
 }
 
-.splash h1 {
-    font-size: 2em;
-    color: white;
-    line-height: 160px;
-    letter-spacing: 1px;
-    padding-top: 2vh;
-    transform: rotate(-7deg);
-    border: 15px solid #FF522A;
-}
-
-.orange {
-     color: #FF522A;   
+.splash img {
+     width: 100%;   
 }
 
 
@@ -268,65 +262,30 @@ html, body {
 /* MEDIA QUERIES */
 /*****************/
 @media (max-width: 400px){
-    .splash h1 {
-        font-size: .5em;
-        line-height: 100px;
-        padding-top: 15vh;
-        padding-bottom: 30px;   
-    }
-    
     .splash .container {
          width: 300px;   
     }
 }
 
 @media (min-width: 400px){
-    .splash h1 {
-        font-size: .6em;
-        line-height: 100px;
-        padding-top: 15vh;
-        padding-bottom: 30px;   
-    }
-    
     .splash .container {
          width: 350px;   
     }
 }
 
 @media (min-width: 550px){
-    .splash h1 {
-        font-size: .75em;
-        line-height: 100px;
-        padding-top: 15vh;
-        padding-bottom: 30px;   
-    }
-    
-    .splash .container {
+   .splash .container {
          width: 500px;   
     }
 }
 
-@media (min-width: 750px){
-    .splash h1 {
-        font-size: .85em;
-        line-height: 100px;
-        padding-top: 15vh;
-        padding-bottom: 30px;   
-    }
-    
+@media (min-width: 750px){    
     .splash .container {
          width: 600px;   
     }
 }
 
-@media (min-width: 1000px){
-    .splash h1 {
-        font-size: 1em;
-        line-height: 100px;
-        padding-top: 15vh;
-        padding-bottom: 30px;   
-    }
-    
+@media (min-width: 1000px){ 
     .splash .container {
          width: 700px;   
     }
@@ -334,13 +293,6 @@ html, body {
 }
 
 @media (min-width: 1200px){
-    .splash h1 {
-        font-size: 2em;
-        line-height: 160px;
-        padding-top: 20vh;
-        padding-bottom: 50px;  
-    }
-    
      .splash .container {
          width: 1200px;   
     }
