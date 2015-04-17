@@ -348,11 +348,20 @@ html, body {
 
 /* IMAGE LAYOUT */
 /****************/
-#grid[data-columns]::before {
-	content: '3 .column.size-1of3';
+.masonry { /* Masonry container */
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+    -moz-column-gap: 1em;
+    -webkit-column-gap: 1em;
+    column-gap: 1em;
 }
 
-/* These are the classes that are going to be applied: */
-.column { float: left; }
-.size-1of3 { width: 33.333%; }
+.item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
 
