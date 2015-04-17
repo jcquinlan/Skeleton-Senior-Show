@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>VCU Photo Show</title>
+    <script src="js/salvattore.min.js"></script>
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link rel="stylesheet" href="css/skeleton.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -83,14 +84,30 @@
            </div>
        </div> 
        <div class="section footer">
-       </div>
+           <div class="container">
+               <div id="grid" data-columns>
+                <div class="column size-1of3">
+                    <div>
+                       <img src="cats/1.jpg">
+                    </div>
+                </div>
+                <div class="column size-1of3">
+                    <div>
+                       <img src="cats/2.jpg">
+                    </div>
+                </div>
+                <div class="column size-1of3">
+                   <img src="cats/3.jpg">
+                   <img src="cats/4.jpg">
+                </div>
+           </div>
+        </div>
+    </div>
        
 <!-- SCRIPTS -->
     <script src="js/scrollReveal.min.js"></script>
     <script>
-
       window.sr = new scrollReveal();
-
     </script>
 </body>
 </html>
