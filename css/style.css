@@ -32,7 +32,7 @@ html, body {
     margin:0; padding:0;
     list-style:none;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 0px;
     
 }
 
@@ -147,6 +147,7 @@ html, body {
 
 .social {
     background-color: #405952;
+    color: white;
 }
 
 .social .slice {
@@ -201,9 +202,13 @@ html, body {
 }
 
 .orange {
-     color: #FF522A;
+     color: #D4A16E;
 }
 
+.infoHeader {
+     font-size: 2em; 
+    font-weight: 600;
+}
 
 
 /* SPLASH SECTION */
@@ -300,6 +305,11 @@ html, body {
 
 /* IMAGE LAYOUT */
 /****************/
+.work {
+    background-color: #2e403b;
+    color: white;
+}
+
 .masonry { /* Masonry container */
     -moz-column-count: 4;
     -webkit-column-count: 4;
