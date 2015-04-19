@@ -32,7 +32,7 @@ html, body {
     margin:0; padding:0;
     list-style:none;
     text-align: center;
-    padding-top: 0px;
+    padding: 50px 0px;
     
 }
 
@@ -86,7 +86,7 @@ html, body {
     z-index: 2;
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
-    border-bottom: 5px solid #FF522A;
+    border-bottom: 20px solid #FF522A;
 }
 
 .soc-icon-last{
@@ -196,8 +196,8 @@ html, body {
 .sideText {
     position: fixed;
     color: #2e403b;
-    top: 90vh;
-    font-size: 18px;
+    top: 80vh;
+    font-size: 16px;
     transform: rotate(90deg);
 }
 
