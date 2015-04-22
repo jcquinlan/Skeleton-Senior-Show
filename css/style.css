@@ -257,6 +257,14 @@ html, body {
     color: white;
 }
 
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+    width: 200px;
+    color: #FFF;
+    background-color: #FF522A;
+    border-color: #FF522A;
+    border-radius: 0px;
+}
+
 /* ARTIST SECTION */
 /******************/
 .artists {
