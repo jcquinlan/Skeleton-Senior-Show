@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>VCU Photo Show</title>
     
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link rel="stylesheet" href="css/skeleton.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -139,16 +141,16 @@
        
        <div class="section work">
            <div class="container">
-              <h1 class="sectionHeader">and see some work!</h1>
+              <h1 class="sectionHeader">see some work!</h1>
                <div class="masonry">
-                    <img data-sr="wait .5s" class="item" src="imgs/art/brooke1.jpg" title="dank cat">
-                    <img data-sr="wait .5s" class="item" src="imgs/art/hannah1.jpg">
-                   <img data-sr="wait .5s" class="item" src="imgs/art/james1.jpeg">
-                   <img data-sr="wait .5s" class="item" src="imgs/art/james2.jpg">
-                    <img data-sr="wait .5s" class="item" src="imgs/art/natalie1.jpg" title="dank cat">
-                    <img data-sr="wait .5s" class="item" src="imgs/art/sara1.jpg">
-                   <img data-sr="wait .5s" class="item" src="imgs/art/sarahp1.jpg">
-                   <img data-sr="wait .5s" class="item" src="imgs/art/taylor1.jpg">
+                    <img data-sr="wait .5s" class="item masterTooltip" src="imgs/art/brooke1.jpg" title="Brooke Marsh">
+                    <img data-sr="wait .5s" class="item masterTooltip" src="imgs/art/hannah1.jpg" title="Hannah Nees">
+                   <img data-sr="wait .5s" class="item masterTooltip" src="imgs/art/james1.jpeg" title="James Quinlan">
+                   <img data-sr="wait .5s" class="item masterTooltip" src="imgs/art/james2.jpg" title="James Quinlan">
+                    <img data-sr="wait .5s" class="item masterTooltip" src="imgs/art/natalie1.jpg" title="Natalie Kohlhepp">
+                    <img data-sr="wait .5s" class="item masterTooltip" src="imgs/art/sara1.jpg" title="Sara Joachim">
+                   <img data-sr="wait .5s" class="item masterTooltip" src="imgs/art/sarahp1.jpg" title="Sarah Parker">
+                   <img data-sr="wait .5s" class="item masterTooltip" src="imgs/art/taylor1.jpg" title="Taylor Stevenson">
                 </div>
            </div>
         </div>
@@ -158,6 +160,29 @@
     <script>
       window.sr = new scrollReveal();
     </script>
-    <script src="js/salvattore.min.js"></script>
+    
+    <script type="text/javascript">
+$(document).ready(function() {
+// Tooltip only Text
+$('.masterTooltip').hover(function(){
+        // Hover over code
+        var title = $(this).attr('title');
+        $(this).data('tipText', title).removeAttr('title');
+        $('<p class="tooltip"></p>')
+        .text(title)
+        .appendTo('body')
+        .fadeIn('slow');
+}, function() {
+        // Hover out code
+        $(this).attr('title', $(this).data('tipText'));
+        $('.tooltip').remove();
+}).mousemove(function(e) {
+        var mousex = e.pageX + 20; //Get X coordinates
+        var mousey = e.pageY + 10; //Get Y coordinates
+        $('.tooltip')
+        .css({ top: mousey, left: mousex })
+});
+});
+</script>
 </body>
 </html>
