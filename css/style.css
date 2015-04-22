@@ -282,12 +282,6 @@ html, body {
 
 /* MEDIA QUERIES */
 /*****************/
-@media (max-width: 400px){
-    .splash .container {
-         width: 300px;   
-    }
-}
-
 @media (min-width: 400px){
     .splash .container {
          width: 350px;   
@@ -304,13 +298,13 @@ html, body {
     .splash .container {
          width: 600px;   
     }
+  
 }
 
 @media (min-width: 1000px){ 
     .splash .container {
          width: 700px;   
-    }
-    
+    }    
 }
 
 @media (min-width: 1200px){
@@ -319,10 +313,27 @@ html, body {
     }
 }
 
+@media (max-width: 1200px){
+    .sideText {
+        display: none;
+    }
+}
+
+
 /* IMAGE LAYOUT */
 /****************/
 .work {
     background-color: #2e403b;
+    color: white;
+}
+
+.work p{
+    font-size: .5em;
+    opacity: 0.3;
+}
+
+.work a {
+    text-decoration: underline;
     color: white;
 }
 
