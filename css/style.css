@@ -198,6 +198,10 @@ html, body {
     color: #2e403b;
     top: 80vh;
     font-size: 16px;
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     float: left;
 }
@@ -225,8 +229,7 @@ html, body {
     
     
     text-align: center;  
-    background-image: url(../imgs/greenBack.gif);
-    background-size: cover;
+    background-color: #2e403b;
 }
 
 .splash img {
@@ -344,9 +347,7 @@ html, body {
 .tooltip {
 	display:none;
 	position:absolute;
-	border:1px solid #333;
-	background-color:#161616;
-	border-radius:5px;
+	background-color:#FF522A;
 	padding:10px;
 	color:#fff;
 	font-size:12px Arial;
