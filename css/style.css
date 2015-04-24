@@ -280,11 +280,65 @@ html, body {
     line-height: 17px;
 }
 
+/* IMAGE LAYOUT */
+/****************/
+.work {
+    background-color: #2e403b;
+    color: white;
+}
+
+.work p{
+    font-size: .5em;
+    opacity: 0.3;
+}
+
+.work a {
+    text-decoration: underline;
+    color: white;
+}
+
+.masonry { /* Masonry container */
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    -moz-column-gap: .5em;
+    -webkit-column-gap: .5em;
+    column-gap: .5em;
+}
+
+.item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 .5em;
+    width: 100%;
+}
+
+/* TOOLTIP STYLING */
+/*******************/
+.tooltip {
+	display:none;
+	position:absolute;
+	background-color:#FF522A;
+	padding:10px;
+	color:#fff;
+	font-size:12px Arial;
+}
+
+
 /* MEDIA QUERIES */
 /*****************/
 @media (min-width: 400px){
     .splash .container {
          width: 350px;   
+    }
+    
+    .masonry { /* Masonry container */
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+        -moz-column-gap: .5em;
+        -webkit-column-gap: .5em;
+        column-gap: .5em;
     }
 }
 
@@ -292,11 +346,29 @@ html, body {
    .splash .container {
          width: 500px;   
     }
+    
+    .masonry { /* Masonry container */
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+        -moz-column-gap: .5em;
+        -webkit-column-gap: .5em;
+        column-gap: .5em;
+    }
 }
 
 @media (min-width: 750px){    
     .splash .container {
          width: 600px;   
+    }
+    
+    .masonry { /* Masonry container */
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+        -moz-column-gap: .5em;
+        -webkit-column-gap: .5em;
+        column-gap: .5em;
     }
   
 }
@@ -320,48 +392,5 @@ html, body {
 }
 
 
-/* IMAGE LAYOUT */
-/****************/
-.work {
-    background-color: #2e403b;
-    color: white;
-}
-
-.work p{
-    font-size: .5em;
-    opacity: 0.3;
-}
-
-.work a {
-    text-decoration: underline;
-    color: white;
-}
-
-.masonry { /* Masonry container */
-    -moz-column-count: 3;
-    -webkit-column-count: 3;
-    column-count: 3;
-    -moz-column-gap: 1em;
-    -webkit-column-gap: 1em;
-    column-gap: 1em;
-}
-
-.item { /* Masonry bricks or child elements */
-    background-color: #eee;
-    display: inline-block;
-    margin: 0 0 1em;
-    width: 100%;
-}
-
-/* TOOLTIP STYLING */
-/*******************/
-.tooltip {
-	display:none;
-	position:absolute;
-	background-color:#FF522A;
-	padding:10px;
-	color:#fff;
-	font-size:12px Arial;
-}
 
 
