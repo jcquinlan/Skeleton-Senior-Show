@@ -328,8 +328,8 @@ html, body {
 /* MEDIA QUERIES */
 /*****************/
 @media (max-width: 400px){
-     .splash .container {
-         width: 350px;   
+    .container {
+         width: 90%;   
     }
     
     .masonry { /* Masonry container */
