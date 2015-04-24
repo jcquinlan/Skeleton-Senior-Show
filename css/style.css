@@ -340,6 +340,23 @@ html, body {
         -webkit-column-gap: .5em;
         column-gap: .5em;
     }
+    
+    .soc li a {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 40px;
+    }
+    
+    .section {
+        font-family: "Roboto";
+        font-weight: 300;
+        font-size: 100%
+    }
+
+    .sectionHeader {
+        font-size: 3em;
+    }
 }
 
 @media (min-width: 550px){
@@ -354,6 +371,13 @@ html, body {
         -moz-column-gap: .5em;
         -webkit-column-gap: .5em;
         column-gap: .5em;
+    }
+    
+    .soc li a {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 50px;
     }
 }
 
@@ -370,13 +394,40 @@ html, body {
         -webkit-column-gap: .5em;
         column-gap: .5em;
     }
-  
+    
+    .section {
+        font-family: "Roboto";
+        font-weight: 300;
+        font-size: 120%
+    }
+
+    .sectionHeader {
+        font-size: 3em;
+    }
+
 }
 
 @media (min-width: 1000px){ 
     .splash .container {
          width: 700px;   
-    }    
+    }
+    
+    .soc li a {
+        width: 160px;
+        height: 160px;
+        line-height: 160px;
+        font-size: 80px;
+    }
+    
+    .section {
+        font-family: "Roboto";
+        font-weight: 300;
+        font-size: 150%
+    }
+
+    .sectionHeader {
+        font-size: 3.5em;
+    }
 }
 
 @media (min-width: 1200px){
